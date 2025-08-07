@@ -1,0 +1,20 @@
+
+    
+yarn add --dev hardhat
+npx hardhat  
+sudo npm install -D dotenv  
+sudo npm i --save-dev @nomicfoundation/hardhat-ignition
+
+sudo npm install @openzeppelin/contracts@5.0.0
+
+npx hardhat ignition deploy ./ignition/modules/YourModule.js
+
+npx hardhat deploy --network base_sepolia
+
+npx hardhat ignition deploy ./ignition/modules/Lock.ts  --network base_sepolia
+
+npx hardhat ignition deploy ./ignition/modules/Asset_Nft.ts  --network base_sepolia
+
+npx hardhat ignition deploy ./ignition/modules/TSAssetNft.ts --network base_sepolia
+
+LockModule#Lock - 0x5FbDB2315678afecb367f032d93F642f64180aa3
